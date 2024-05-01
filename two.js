@@ -1,7 +1,7 @@
 const buttons = document.querySelectorAll('.button');
 
 
-const body = document.querySelector("#div")
+const body = document.getElementById("div")
 
 
 buttons.forEach(function (button) {
