@@ -1,0 +1,36 @@
+.canvas{
+    /* background-color: aqua; */
+    border: 2px solid red;
+    text-align: center;
+}
+
+.button{
+    display: inline-block; 
+    width: 100px; 
+    height: 100px; 
+    border: 1px solid red;
+    /* background-color: #ccc; */
+    padding: 10px;
+    margin: 10px;
+    transition: transform 3s ease;
+}
+#grey{
+    background-color: grey;
+}
+#white{
+    background-color: white;
+}
+#blue{
+    background-color: blue;
+}
+#yellow{
+    background-color: yellow;
+}
+.button:hover{
+    transform: scale(1.10);
+    
+}
+div h2 span{
+    background-color: antiquewhite;
+    display: inline-block;
+}
